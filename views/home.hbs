@@ -3,6 +3,10 @@
     <li>
         <h2>{{ title }}</h2>
         <p>{{ description }}</p>
+        
+        <p>{{ likes }} <a href="/events/{{id}}/likes">&#x1f44d;</a></p>
+        
+        <p>{{ datetime }}</p>
     </li>
   {{/events}}
 </ul>
